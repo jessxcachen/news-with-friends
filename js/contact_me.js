@@ -8,10 +8,10 @@ $(function() {
     submitSuccess: function($form, event) {
       event.preventDefault(); // prevent default submit behaviour
       // get values from FORM
-      var name = $("input#name").val();
-      var email = $("input#email").val();
-      var phone = $("input#phone").val();
-      var message = $("textarea#message").val();
+      var name = $("Jessica Chen").val();
+      var email = $("jessicaychen@berkeley.edu").val();
+      var phone = $("5107704208").val();
+      var message = $("5107704208").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
